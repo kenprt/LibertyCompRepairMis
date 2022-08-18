@@ -41,7 +41,8 @@ namespace LibertyCompRepairMis
             txtphone.Text = "";
             txtmodel.Text = "";
             txtserial.Text = "";
-            txtproblem.Text = "";  
+            txtproblem.Text = "";
+            label2.Text = "";
         }
         public void liveSearch()
         {
@@ -95,7 +96,9 @@ namespace LibertyCompRepairMis
                                 SqlCommand updateData = new SqlCommand("Update new set name = '" + txtname.Text + "', gender = '" + g + "', phone = '" + txtphone.Text + "', model = '" + txtmodel.Text + "',serial = '" + txtserial.Text + "', problem = '" + txtproblem.Text + "', iscomplete = '" + iscomplete.SelectedItem + "', harddrive = '" + harddrive.SelectedItem + "', ram = '" + ram.SelectedItem + "' where id = '" + label2.Text + "'", con);
                                 updateData.ExecuteNonQuery();
                                 MessageBox.Show("Data updated successfully", "Successfull Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                                 bindData();
+                                
                                 resetData();
                             }
                             else
@@ -171,6 +174,12 @@ namespace LibertyCompRepairMis
         private void materialTextBox6_TextChanged(object sender, EventArgs e)
         {
             liveSearch();
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            checkOut co = new checkOut();
+            co.Show();
         }
     }
 }
