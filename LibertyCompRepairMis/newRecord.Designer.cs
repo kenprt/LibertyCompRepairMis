@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(newRecord));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,7 +40,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.lbluser = new MaterialSkin.Controls.MaterialLabel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -72,6 +72,12 @@
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.materialCard3 = new MaterialSkin.Controls.MaterialCard();
             this.bunifuDataGridView1 = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.newBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.itlogistsDbDataSet = new LibertyCompRepairMis.ItlogistsDbDataSet();
+            this.newTableAdapter = new LibertyCompRepairMis.ItlogistsDbDataSetTableAdapters.newTableAdapter();
+            this.libertyshopDataSet1 = new LibertyCompRepairMis.libertyshopDataSet1();
+            this.newBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.newTableAdapter1 = new LibertyCompRepairMis.libertyshopDataSet1TableAdapters.newTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.genderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,9 +91,6 @@
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.newBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.itlogistsDbDataSet = new LibertyCompRepairMis.ItlogistsDbDataSet();
-            this.newTableAdapter = new LibertyCompRepairMis.ItlogistsDbDataSetTableAdapters.newTableAdapter();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -112,6 +115,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.newBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itlogistsDbDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.libertyshopDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.newBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -205,24 +210,24 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.materialLabel1);
+            this.panel1.Controls.Add(this.lbluser);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(436, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(251, 36);
             this.panel1.TabIndex = 0;
             // 
-            // materialLabel1
+            // lbluser
             // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(49, 13);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(142, 19);
-            this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "Welcome back user!";
+            this.lbluser.AutoSize = true;
+            this.lbluser.Depth = 0;
+            this.lbluser.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lbluser.Location = new System.Drawing.Point(49, 13);
+            this.lbluser.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbluser.Name = "lbluser";
+            this.lbluser.Size = new System.Drawing.Size(142, 19);
+            this.lbluser.TabIndex = 0;
+            this.lbluser.Text = "Welcome back user!";
             // 
             // tableLayoutPanel2
             // 
@@ -367,7 +372,7 @@
             this.txtproblem.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtproblem.Depth = 0;
             this.txtproblem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtproblem.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtproblem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtproblem.Hint = "Computer problem(s)";
             this.txtproblem.LeadingIcon = ((System.Drawing.Image)(resources.GetObject("txtproblem.LeadingIcon")));
             this.txtproblem.Location = new System.Drawing.Point(3, 117);
@@ -386,7 +391,7 @@
             this.txtserial.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtserial.Depth = 0;
             this.txtserial.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtserial.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtserial.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtserial.Hint = "Serial number";
             this.txtserial.LeadingIcon = ((System.Drawing.Image)(resources.GetObject("txtserial.LeadingIcon")));
             this.txtserial.Location = new System.Drawing.Point(3, 60);
@@ -407,7 +412,7 @@
             this.txtmodel.AnimateReadOnly = false;
             this.txtmodel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtmodel.Depth = 0;
-            this.txtmodel.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtmodel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtmodel.Hint = "Computer model e.g. HP..";
             this.txtmodel.LeadingIcon = ((System.Drawing.Image)(resources.GetObject("txtmodel.LeadingIcon")));
             this.txtmodel.Location = new System.Drawing.Point(3, 3);
@@ -507,7 +512,7 @@
             this.txtphone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtphone.Depth = 0;
             this.txtphone.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtphone.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtphone.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtphone.Hint = "Phone number";
             this.txtphone.LeadingIcon = ((System.Drawing.Image)(resources.GetObject("txtphone.LeadingIcon")));
             this.txtphone.Location = new System.Drawing.Point(3, 60);
@@ -526,7 +531,7 @@
             this.txtname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtname.Depth = 0;
             this.txtname.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtname.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtname.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtname.Hint = "Full name";
             this.txtname.LeadingIcon = ((System.Drawing.Image)(resources.GetObject("txtname.LeadingIcon")));
             this.txtname.Location = new System.Drawing.Point(3, 3);
@@ -685,7 +690,7 @@
             this.txtfind.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtfind.Depth = 0;
             this.txtfind.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtfind.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtfind.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtfind.Hint = "Search ";
             this.txtfind.LeadingIcon = ((System.Drawing.Image)(resources.GetObject("txtfind.LeadingIcon")));
             this.txtfind.Location = new System.Drawing.Point(3, 3);
@@ -731,23 +736,23 @@
             // 
             this.bunifuDataGridView1.AllowCustomTheming = false;
             this.bunifuDataGridView1.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(217)))), ((int)(((byte)(198)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(217)))), ((int)(((byte)(198)))));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.bunifuDataGridView1.AutoGenerateColumns = false;
             this.bunifuDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuDataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.bunifuDataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.bunifuDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Chocolate;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(84)))), ((int)(((byte)(24)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Chocolate;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(84)))), ((int)(((byte)(24)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.bunifuDataGridView1.ColumnHeadersHeight = 40;
             this.bunifuDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
@@ -781,15 +786,15 @@
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(165)))), ((int)(((byte)(120)))));
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.bunifuDataGridView1.DataSource = this.newBindingSource;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(225)))), ((int)(((byte)(210)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(165)))), ((int)(((byte)(120)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.bunifuDataGridView1.DataSource = this.newBindingSource1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(225)))), ((int)(((byte)(210)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(165)))), ((int)(((byte)(120)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuDataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
             this.bunifuDataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuDataGridView1.EnableHeadersVisualStyles = false;
             this.bunifuDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(210)))), ((int)(((byte)(187)))));
@@ -806,71 +811,99 @@
             this.bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Chocolate;
             this.bunifuDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuDataGridView1_CellContentClick);
             // 
+            // newBindingSource
+            // 
+            this.newBindingSource.DataMember = "new";
+            this.newBindingSource.DataSource = this.itlogistsDbDataSet;
+            // 
+            // itlogistsDbDataSet
+            // 
+            this.itlogistsDbDataSet.DataSetName = "ItlogistsDbDataSet";
+            this.itlogistsDbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // newTableAdapter
+            // 
+            this.newTableAdapter.ClearBeforeFill = true;
+            // 
+            // libertyshopDataSet1
+            // 
+            this.libertyshopDataSet1.DataSetName = "libertyshopDataSet1";
+            this.libertyshopDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // newBindingSource1
+            // 
+            this.newBindingSource1.DataMember = "new";
+            this.newBindingSource1.DataSource = this.libertyshopDataSet1;
+            // 
+            // newTableAdapter1
+            // 
+            this.newTableAdapter1.ClearBeforeFill = true;
+            // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Cust ID";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             this.idDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nameDataGridViewTextBoxColumn
             // 
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Cust Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             // 
             // genderDataGridViewTextBoxColumn
             // 
             this.genderDataGridViewTextBoxColumn.DataPropertyName = "gender";
-            this.genderDataGridViewTextBoxColumn.HeaderText = "Gender";
+            this.genderDataGridViewTextBoxColumn.HeaderText = "gender";
             this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
             // 
             // phoneDataGridViewTextBoxColumn
             // 
             this.phoneDataGridViewTextBoxColumn.DataPropertyName = "phone";
-            this.phoneDataGridViewTextBoxColumn.HeaderText = "Phone NO.";
+            this.phoneDataGridViewTextBoxColumn.HeaderText = "phone";
             this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
             // 
             // modelDataGridViewTextBoxColumn
             // 
             this.modelDataGridViewTextBoxColumn.DataPropertyName = "model";
-            this.modelDataGridViewTextBoxColumn.HeaderText = "PC Model";
+            this.modelDataGridViewTextBoxColumn.HeaderText = "model";
             this.modelDataGridViewTextBoxColumn.Name = "modelDataGridViewTextBoxColumn";
             // 
             // serialDataGridViewTextBoxColumn
             // 
             this.serialDataGridViewTextBoxColumn.DataPropertyName = "serial";
-            this.serialDataGridViewTextBoxColumn.HeaderText = "Serial NO.";
+            this.serialDataGridViewTextBoxColumn.HeaderText = "serial";
             this.serialDataGridViewTextBoxColumn.Name = "serialDataGridViewTextBoxColumn";
             // 
             // problemDataGridViewTextBoxColumn
             // 
             this.problemDataGridViewTextBoxColumn.DataPropertyName = "problem";
-            this.problemDataGridViewTextBoxColumn.HeaderText = "PC Problem";
+            this.problemDataGridViewTextBoxColumn.HeaderText = "problem";
             this.problemDataGridViewTextBoxColumn.Name = "problemDataGridViewTextBoxColumn";
             // 
             // iscompleteDataGridViewTextBoxColumn
             // 
             this.iscompleteDataGridViewTextBoxColumn.DataPropertyName = "iscomplete";
-            this.iscompleteDataGridViewTextBoxColumn.HeaderText = "Is Complete";
+            this.iscompleteDataGridViewTextBoxColumn.HeaderText = "iscomplete";
             this.iscompleteDataGridViewTextBoxColumn.Name = "iscompleteDataGridViewTextBoxColumn";
             // 
             // harddriveDataGridViewTextBoxColumn
             // 
             this.harddriveDataGridViewTextBoxColumn.DataPropertyName = "harddrive";
-            this.harddriveDataGridViewTextBoxColumn.HeaderText = "Hard-Drive";
+            this.harddriveDataGridViewTextBoxColumn.HeaderText = "harddrive";
             this.harddriveDataGridViewTextBoxColumn.Name = "harddriveDataGridViewTextBoxColumn";
             // 
             // ramDataGridViewTextBoxColumn
             // 
             this.ramDataGridViewTextBoxColumn.DataPropertyName = "ram";
-            this.ramDataGridViewTextBoxColumn.HeaderText = "Ram";
+            this.ramDataGridViewTextBoxColumn.HeaderText = "ram";
             this.ramDataGridViewTextBoxColumn.Name = "ramDataGridViewTextBoxColumn";
             // 
             // dateDataGridViewTextBoxColumn
             // 
             this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "date";
             this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
             // 
             // edit
@@ -886,20 +919,6 @@
             this.delete.Name = "delete";
             this.delete.Text = "Delete";
             this.delete.UseColumnTextForButtonValue = true;
-            // 
-            // newBindingSource
-            // 
-            this.newBindingSource.DataMember = "new";
-            this.newBindingSource.DataSource = this.itlogistsDbDataSet;
-            // 
-            // itlogistsDbDataSet
-            // 
-            this.itlogistsDbDataSet.DataSetName = "ItlogistsDbDataSet";
-            this.itlogistsDbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // newTableAdapter
-            // 
-            this.newTableAdapter.ClearBeforeFill = true;
             // 
             // newRecord
             // 
@@ -944,6 +963,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.newBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itlogistsDbDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.libertyshopDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.newBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -953,8 +974,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private MaterialSkin.Controls.MaterialCard materialCard2;
@@ -991,6 +1010,10 @@
         private ItlogistsDbDataSet itlogistsDbDataSet;
         private System.Windows.Forms.BindingSource newBindingSource;
         private ItlogistsDbDataSetTableAdapters.newTableAdapter newTableAdapter;
+        private System.Windows.Forms.Label label2;
+        private libertyshopDataSet1 libertyshopDataSet1;
+        private System.Windows.Forms.BindingSource newBindingSource1;
+        private libertyshopDataSet1TableAdapters.newTableAdapter newTableAdapter1;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn genderDataGridViewTextBoxColumn;
@@ -1004,6 +1027,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewButtonColumn edit;
         private System.Windows.Forms.DataGridViewButtonColumn delete;
-        private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Panel panel1;
+        public MaterialSkin.Controls.MaterialLabel lbluser;
     }
 }

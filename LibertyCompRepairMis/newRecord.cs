@@ -15,7 +15,7 @@ namespace LibertyCompRepairMis
 {
     public partial class newRecord : MaterialForm
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-OQQ6I8M;Initial Catalog=ItlogistsDb;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-KL8RVKT;Initial Catalog=libertyshop;Integrated Security=True");
         string g; 
         public newRecord()
         {
@@ -53,8 +53,10 @@ namespace LibertyCompRepairMis
         }
         private void newRecord_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'libertyshopDataSet1._new' table. You can move, or remove it, as needed.
+            this.newTableAdapter1.Fill(this.libertyshopDataSet1._new);
             // TODO: This line of code loads data into the 'itlogistsDbDataSet._new' table. You can move, or remove it, as needed.
-            this.newTableAdapter.Fill(this.itlogistsDbDataSet._new);
+            //this.newTableAdapter.Fill(this.itlogistsDbDataSet._new);
             bindData();
             liveSearch();
         }

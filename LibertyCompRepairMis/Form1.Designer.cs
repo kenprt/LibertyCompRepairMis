@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -89,10 +89,44 @@
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
+            this.customer = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
+            this.bunifuGroupBox2 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuDatePicker3 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.bunifuGroupBox1 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuDatePicker2 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.comp = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
+            this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
+            this.bunifuGroupBox3 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuDatePicker4 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.bunifuGroupBox4 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuDatePicker5 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.money = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
+            this.reportViewer3 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+            this.materialButton13 = new MaterialSkin.Controls.MaterialButton();
+            this.bunifuGroupBox5 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuDatePicker6 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.bunifuGroupBox6 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuDatePicker7 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
             this.bunifuDataGridView1 = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.usersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.itlogistsDbDataSet1 = new LibertyCompRepairMis.ItlogistsDbDataSet1();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
@@ -113,46 +147,15 @@
             this.materialCard10 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.itlogistsDbDataSet1 = new LibertyCompRepairMis.ItlogistsDbDataSet1();
-            this.usersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.usersTableAdapter = new LibertyCompRepairMis.ItlogistsDbDataSet1TableAdapters.usersTableAdapter();
+            this.libertyshopDataSet = new LibertyCompRepairMis.libertyshopDataSet();
+            this.usersBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.usersTableAdapter1 = new LibertyCompRepairMis.libertyshopDataSetTableAdapters.usersTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usernameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
-            this.customer = new System.Windows.Forms.TabPage();
-            this.comp = new System.Windows.Forms.TabPage();
-            this.money = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
-            this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
-            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuGroupBox1 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.bunifuGroupBox2 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
-            this.bunifuDatePicker2 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.bunifuDatePicker3 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
-            this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
-            this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
-            this.bunifuGroupBox3 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.bunifuDatePicker4 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.bunifuGroupBox4 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.bunifuDatePicker5 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
-            this.reportViewer3 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
-            this.materialButton13 = new MaterialSkin.Controls.MaterialButton();
-            this.bunifuGroupBox5 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.bunifuDatePicker6 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.bunifuGroupBox6 = new Bunifu.UI.WinForms.BunifuGroupBox();
-            this.bunifuDatePicker7 = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -182,10 +185,29 @@
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.bunifuPages1.SuspendLayout();
+            this.customer.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.bunifuGroupBox2.SuspendLayout();
+            this.bunifuGroupBox1.SuspendLayout();
+            this.comp.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            this.tableLayoutPanel19.SuspendLayout();
+            this.bunifuGroupBox3.SuspendLayout();
+            this.bunifuGroupBox4.SuspendLayout();
+            this.money.SuspendLayout();
+            this.tableLayoutPanel20.SuspendLayout();
+            this.tableLayoutPanel21.SuspendLayout();
+            this.bunifuGroupBox5.SuspendLayout();
+            this.bunifuGroupBox6.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tableLayoutPanel14.SuspendLayout();
             this.materialCard13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itlogistsDbDataSet1)).BeginInit();
             this.tableLayoutPanel11.SuspendLayout();
             this.panel5.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
@@ -194,25 +216,8 @@
             this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             this.materialCard10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.itlogistsDbDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).BeginInit();
-            this.bunifuPages1.SuspendLayout();
-            this.customer.SuspendLayout();
-            this.comp.SuspendLayout();
-            this.money.SuspendLayout();
-            this.tableLayoutPanel15.SuspendLayout();
-            this.tableLayoutPanel16.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
-            this.bunifuGroupBox1.SuspendLayout();
-            this.bunifuGroupBox2.SuspendLayout();
-            this.tableLayoutPanel18.SuspendLayout();
-            this.tableLayoutPanel19.SuspendLayout();
-            this.bunifuGroupBox3.SuspendLayout();
-            this.bunifuGroupBox4.SuspendLayout();
-            this.tableLayoutPanel20.SuspendLayout();
-            this.tableLayoutPanel21.SuspendLayout();
-            this.bunifuGroupBox5.SuspendLayout();
-            this.bunifuGroupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.libertyshopDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -302,20 +307,20 @@
             // 
             // chart1
             // 
-            chartArea3.BackColor = System.Drawing.Color.Transparent;
-            chartArea3.BackSecondaryColor = System.Drawing.Color.Transparent;
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
+            chartArea1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.BackSecondaryColor = System.Drawing.Color.Transparent;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(14, 14);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(422, 194);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -982,6 +987,605 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Reports";
             // 
+            // bunifuPages1
+            // 
+            this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.bunifuPages1.AllowTransitions = false;
+            this.bunifuPages1.Controls.Add(this.customer);
+            this.bunifuPages1.Controls.Add(this.comp);
+            this.bunifuPages1.Controls.Add(this.money);
+            this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuPages1.Location = new System.Drawing.Point(3, 54);
+            this.bunifuPages1.Multiline = true;
+            this.bunifuPages1.Name = "bunifuPages1";
+            this.bunifuPages1.Page = this.customer;
+            this.bunifuPages1.PageIndex = 0;
+            this.bunifuPages1.PageName = "customer";
+            this.bunifuPages1.PageTitle = "customer";
+            this.bunifuPages1.SelectedIndex = 0;
+            this.bunifuPages1.Size = new System.Drawing.Size(780, 446);
+            this.bunifuPages1.TabIndex = 0;
+            animation1.AnimateOnlyDifferences = false;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuPages1.Transition = animation1;
+            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
+            // 
+            // customer
+            // 
+            this.customer.BackColor = System.Drawing.Color.White;
+            this.customer.Controls.Add(this.tableLayoutPanel16);
+            this.customer.Controls.Add(this.tableLayoutPanel17);
+            this.customer.Location = new System.Drawing.Point(4, 4);
+            this.customer.Name = "customer";
+            this.customer.Padding = new System.Windows.Forms.Padding(3);
+            this.customer.Size = new System.Drawing.Size(772, 420);
+            this.customer.TabIndex = 0;
+            this.customer.Text = "customer";
+            // 
+            // tableLayoutPanel16
+            // 
+            this.tableLayoutPanel16.ColumnCount = 3;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel16.Controls.Add(this.reportViewer1, 1, 0);
+            this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 59);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            this.tableLayoutPanel16.RowCount = 1;
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(766, 358);
+            this.tableLayoutPanel16.TabIndex = 0;
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer1.Location = new System.Drawing.Point(194, 3);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(377, 352);
+            this.reportViewer1.TabIndex = 0;
+            // 
+            // tableLayoutPanel17
+            // 
+            this.tableLayoutPanel17.ColumnCount = 3;
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel17.Controls.Add(this.materialButton11, 2, 0);
+            this.tableLayoutPanel17.Controls.Add(this.bunifuGroupBox2, 1, 0);
+            this.tableLayoutPanel17.Controls.Add(this.bunifuGroupBox1, 0, 0);
+            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            this.tableLayoutPanel17.RowCount = 1;
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(766, 56);
+            this.tableLayoutPanel17.TabIndex = 1;
+            // 
+            // materialButton11
+            // 
+            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton11.Depth = 0;
+            this.materialButton11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton11.HighEmphasis = true;
+            this.materialButton11.Icon = null;
+            this.materialButton11.Location = new System.Drawing.Point(692, 6);
+            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton11.Name = "materialButton11";
+            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton11.Size = new System.Drawing.Size(70, 44);
+            this.materialButton11.TabIndex = 3;
+            this.materialButton11.Text = "Filter";
+            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton11.UseAccentColor = false;
+            this.materialButton11.UseVisualStyleBackColor = true;
+            // 
+            // bunifuGroupBox2
+            // 
+            this.bunifuGroupBox2.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuGroupBox2.BorderRadius = 1;
+            this.bunifuGroupBox2.BorderThickness = 1;
+            this.bunifuGroupBox2.Controls.Add(this.bunifuDatePicker3);
+            this.bunifuGroupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox2.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox2.LabelIndent = 10;
+            this.bunifuGroupBox2.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox2.Location = new System.Drawing.Point(347, 3);
+            this.bunifuGroupBox2.Name = "bunifuGroupBox2";
+            this.bunifuGroupBox2.Size = new System.Drawing.Size(338, 50);
+            this.bunifuGroupBox2.TabIndex = 1;
+            this.bunifuGroupBox2.TabStop = false;
+            this.bunifuGroupBox2.Text = "To";
+            // 
+            // bunifuDatePicker3
+            // 
+            this.bunifuDatePicker3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker3.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuDatePicker3.BorderRadius = 1;
+            this.bunifuDatePicker3.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker3.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker3.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker3.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker3.DisplayWeekNumbers = false;
+            this.bunifuDatePicker3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuDatePicker3.DPHeight = 0;
+            this.bunifuDatePicker3.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker3.FillDatePicker = false;
+            this.bunifuDatePicker3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker3.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker3.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker3.Icon")));
+            this.bunifuDatePicker3.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker3.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker3.LeftTextMargin = 5;
+            this.bunifuDatePicker3.Location = new System.Drawing.Point(3, 19);
+            this.bunifuDatePicker3.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker3.Name = "bunifuDatePicker3";
+            this.bunifuDatePicker3.Size = new System.Drawing.Size(332, 32);
+            this.bunifuDatePicker3.TabIndex = 1;
+            // 
+            // bunifuGroupBox1
+            // 
+            this.bunifuGroupBox1.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuGroupBox1.BorderRadius = 1;
+            this.bunifuGroupBox1.BorderThickness = 1;
+            this.bunifuGroupBox1.Controls.Add(this.bunifuDatePicker2);
+            this.bunifuGroupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox1.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox1.LabelIndent = 10;
+            this.bunifuGroupBox1.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox1.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGroupBox1.Name = "bunifuGroupBox1";
+            this.bunifuGroupBox1.Size = new System.Drawing.Size(338, 50);
+            this.bunifuGroupBox1.TabIndex = 0;
+            this.bunifuGroupBox1.TabStop = false;
+            this.bunifuGroupBox1.Text = "From";
+            // 
+            // bunifuDatePicker2
+            // 
+            this.bunifuDatePicker2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker2.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuDatePicker2.BorderRadius = 1;
+            this.bunifuDatePicker2.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker2.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker2.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker2.DisplayWeekNumbers = false;
+            this.bunifuDatePicker2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuDatePicker2.DPHeight = 0;
+            this.bunifuDatePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker2.FillDatePicker = false;
+            this.bunifuDatePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker2.Icon")));
+            this.bunifuDatePicker2.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker2.LeftTextMargin = 5;
+            this.bunifuDatePicker2.Location = new System.Drawing.Point(3, 19);
+            this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker2.Name = "bunifuDatePicker2";
+            this.bunifuDatePicker2.Size = new System.Drawing.Size(332, 32);
+            this.bunifuDatePicker2.TabIndex = 0;
+            // 
+            // comp
+            // 
+            this.comp.BackColor = System.Drawing.Color.White;
+            this.comp.Controls.Add(this.tableLayoutPanel18);
+            this.comp.Controls.Add(this.tableLayoutPanel19);
+            this.comp.Location = new System.Drawing.Point(4, 4);
+            this.comp.Name = "comp";
+            this.comp.Padding = new System.Windows.Forms.Padding(3);
+            this.comp.Size = new System.Drawing.Size(772, 420);
+            this.comp.TabIndex = 1;
+            this.comp.Text = "comp";
+            // 
+            // tableLayoutPanel18
+            // 
+            this.tableLayoutPanel18.ColumnCount = 3;
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel18.Controls.Add(this.reportViewer2, 1, 0);
+            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 59);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 1;
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(766, 358);
+            this.tableLayoutPanel18.TabIndex = 2;
+            // 
+            // reportViewer2
+            // 
+            this.reportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer2.Location = new System.Drawing.Point(194, 3);
+            this.reportViewer2.Name = "reportViewer2";
+            this.reportViewer2.ServerReport.BearerToken = null;
+            this.reportViewer2.Size = new System.Drawing.Size(377, 352);
+            this.reportViewer2.TabIndex = 0;
+            // 
+            // tableLayoutPanel19
+            // 
+            this.tableLayoutPanel19.ColumnCount = 3;
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel19.Controls.Add(this.materialButton12, 2, 0);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuGroupBox3, 1, 0);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuGroupBox4, 0, 0);
+            this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
+            this.tableLayoutPanel19.RowCount = 1;
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel19.Size = new System.Drawing.Size(766, 56);
+            this.tableLayoutPanel19.TabIndex = 3;
+            // 
+            // materialButton12
+            // 
+            this.materialButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton12.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton12.Depth = 0;
+            this.materialButton12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton12.HighEmphasis = true;
+            this.materialButton12.Icon = null;
+            this.materialButton12.Location = new System.Drawing.Point(692, 6);
+            this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton12.Name = "materialButton12";
+            this.materialButton12.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton12.Size = new System.Drawing.Size(70, 44);
+            this.materialButton12.TabIndex = 3;
+            this.materialButton12.Text = "Filter";
+            this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton12.UseAccentColor = false;
+            this.materialButton12.UseVisualStyleBackColor = true;
+            // 
+            // bunifuGroupBox3
+            // 
+            this.bunifuGroupBox3.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuGroupBox3.BorderRadius = 1;
+            this.bunifuGroupBox3.BorderThickness = 1;
+            this.bunifuGroupBox3.Controls.Add(this.bunifuDatePicker4);
+            this.bunifuGroupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGroupBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox3.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox3.LabelIndent = 10;
+            this.bunifuGroupBox3.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox3.Location = new System.Drawing.Point(347, 3);
+            this.bunifuGroupBox3.Name = "bunifuGroupBox3";
+            this.bunifuGroupBox3.Size = new System.Drawing.Size(338, 50);
+            this.bunifuGroupBox3.TabIndex = 1;
+            this.bunifuGroupBox3.TabStop = false;
+            this.bunifuGroupBox3.Text = "To";
+            // 
+            // bunifuDatePicker4
+            // 
+            this.bunifuDatePicker4.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker4.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuDatePicker4.BorderRadius = 1;
+            this.bunifuDatePicker4.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker4.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker4.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker4.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker4.DisplayWeekNumbers = false;
+            this.bunifuDatePicker4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuDatePicker4.DPHeight = 0;
+            this.bunifuDatePicker4.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker4.FillDatePicker = false;
+            this.bunifuDatePicker4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker4.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker4.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker4.Icon")));
+            this.bunifuDatePicker4.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker4.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker4.LeftTextMargin = 5;
+            this.bunifuDatePicker4.Location = new System.Drawing.Point(3, 19);
+            this.bunifuDatePicker4.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker4.Name = "bunifuDatePicker4";
+            this.bunifuDatePicker4.Size = new System.Drawing.Size(332, 32);
+            this.bunifuDatePicker4.TabIndex = 1;
+            // 
+            // bunifuGroupBox4
+            // 
+            this.bunifuGroupBox4.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuGroupBox4.BorderRadius = 1;
+            this.bunifuGroupBox4.BorderThickness = 1;
+            this.bunifuGroupBox4.Controls.Add(this.bunifuDatePicker5);
+            this.bunifuGroupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGroupBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox4.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox4.LabelIndent = 10;
+            this.bunifuGroupBox4.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox4.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGroupBox4.Name = "bunifuGroupBox4";
+            this.bunifuGroupBox4.Size = new System.Drawing.Size(338, 50);
+            this.bunifuGroupBox4.TabIndex = 0;
+            this.bunifuGroupBox4.TabStop = false;
+            this.bunifuGroupBox4.Text = "From";
+            // 
+            // bunifuDatePicker5
+            // 
+            this.bunifuDatePicker5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker5.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuDatePicker5.BorderRadius = 1;
+            this.bunifuDatePicker5.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker5.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker5.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker5.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker5.DisplayWeekNumbers = false;
+            this.bunifuDatePicker5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuDatePicker5.DPHeight = 0;
+            this.bunifuDatePicker5.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker5.FillDatePicker = false;
+            this.bunifuDatePicker5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker5.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker5.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker5.Icon")));
+            this.bunifuDatePicker5.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker5.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker5.LeftTextMargin = 5;
+            this.bunifuDatePicker5.Location = new System.Drawing.Point(3, 19);
+            this.bunifuDatePicker5.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker5.Name = "bunifuDatePicker5";
+            this.bunifuDatePicker5.Size = new System.Drawing.Size(332, 32);
+            this.bunifuDatePicker5.TabIndex = 0;
+            // 
+            // money
+            // 
+            this.money.BackColor = System.Drawing.Color.White;
+            this.money.Controls.Add(this.tableLayoutPanel20);
+            this.money.Controls.Add(this.tableLayoutPanel21);
+            this.money.Location = new System.Drawing.Point(4, 4);
+            this.money.Name = "money";
+            this.money.Padding = new System.Windows.Forms.Padding(3);
+            this.money.Size = new System.Drawing.Size(772, 420);
+            this.money.TabIndex = 2;
+            this.money.Text = "money";
+            // 
+            // tableLayoutPanel20
+            // 
+            this.tableLayoutPanel20.ColumnCount = 3;
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel20.Controls.Add(this.reportViewer3, 1, 0);
+            this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 59);
+            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
+            this.tableLayoutPanel20.RowCount = 1;
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(766, 358);
+            this.tableLayoutPanel20.TabIndex = 2;
+            // 
+            // reportViewer3
+            // 
+            this.reportViewer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer3.Location = new System.Drawing.Point(194, 3);
+            this.reportViewer3.Name = "reportViewer3";
+            this.reportViewer3.ServerReport.BearerToken = null;
+            this.reportViewer3.Size = new System.Drawing.Size(377, 352);
+            this.reportViewer3.TabIndex = 0;
+            // 
+            // tableLayoutPanel21
+            // 
+            this.tableLayoutPanel21.ColumnCount = 3;
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel21.Controls.Add(this.materialButton13, 2, 0);
+            this.tableLayoutPanel21.Controls.Add(this.bunifuGroupBox5, 1, 0);
+            this.tableLayoutPanel21.Controls.Add(this.bunifuGroupBox6, 0, 0);
+            this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
+            this.tableLayoutPanel21.RowCount = 1;
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(766, 56);
+            this.tableLayoutPanel21.TabIndex = 3;
+            // 
+            // materialButton13
+            // 
+            this.materialButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton13.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton13.Depth = 0;
+            this.materialButton13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton13.HighEmphasis = true;
+            this.materialButton13.Icon = null;
+            this.materialButton13.Location = new System.Drawing.Point(692, 6);
+            this.materialButton13.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton13.Name = "materialButton13";
+            this.materialButton13.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton13.Size = new System.Drawing.Size(70, 44);
+            this.materialButton13.TabIndex = 3;
+            this.materialButton13.Text = "Filter";
+            this.materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton13.UseAccentColor = false;
+            this.materialButton13.UseVisualStyleBackColor = true;
+            // 
+            // bunifuGroupBox5
+            // 
+            this.bunifuGroupBox5.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuGroupBox5.BorderRadius = 1;
+            this.bunifuGroupBox5.BorderThickness = 1;
+            this.bunifuGroupBox5.Controls.Add(this.bunifuDatePicker6);
+            this.bunifuGroupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGroupBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox5.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox5.LabelIndent = 10;
+            this.bunifuGroupBox5.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox5.Location = new System.Drawing.Point(347, 3);
+            this.bunifuGroupBox5.Name = "bunifuGroupBox5";
+            this.bunifuGroupBox5.Size = new System.Drawing.Size(338, 50);
+            this.bunifuGroupBox5.TabIndex = 1;
+            this.bunifuGroupBox5.TabStop = false;
+            this.bunifuGroupBox5.Text = "To";
+            // 
+            // bunifuDatePicker6
+            // 
+            this.bunifuDatePicker6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker6.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuDatePicker6.BorderRadius = 1;
+            this.bunifuDatePicker6.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker6.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker6.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker6.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker6.DisplayWeekNumbers = false;
+            this.bunifuDatePicker6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuDatePicker6.DPHeight = 0;
+            this.bunifuDatePicker6.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker6.FillDatePicker = false;
+            this.bunifuDatePicker6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker6.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker6.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker6.Icon")));
+            this.bunifuDatePicker6.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker6.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker6.LeftTextMargin = 5;
+            this.bunifuDatePicker6.Location = new System.Drawing.Point(3, 19);
+            this.bunifuDatePicker6.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker6.Name = "bunifuDatePicker6";
+            this.bunifuDatePicker6.Size = new System.Drawing.Size(332, 32);
+            this.bunifuDatePicker6.TabIndex = 1;
+            // 
+            // bunifuGroupBox6
+            // 
+            this.bunifuGroupBox6.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuGroupBox6.BorderRadius = 1;
+            this.bunifuGroupBox6.BorderThickness = 1;
+            this.bunifuGroupBox6.Controls.Add(this.bunifuDatePicker7);
+            this.bunifuGroupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuGroupBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox6.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox6.LabelIndent = 10;
+            this.bunifuGroupBox6.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox6.Location = new System.Drawing.Point(3, 3);
+            this.bunifuGroupBox6.Name = "bunifuGroupBox6";
+            this.bunifuGroupBox6.Size = new System.Drawing.Size(338, 50);
+            this.bunifuGroupBox6.TabIndex = 0;
+            this.bunifuGroupBox6.TabStop = false;
+            this.bunifuGroupBox6.Text = "From";
+            // 
+            // bunifuDatePicker7
+            // 
+            this.bunifuDatePicker7.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker7.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuDatePicker7.BorderRadius = 1;
+            this.bunifuDatePicker7.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker7.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker7.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker7.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker7.DisplayWeekNumbers = false;
+            this.bunifuDatePicker7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuDatePicker7.DPHeight = 0;
+            this.bunifuDatePicker7.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker7.FillDatePicker = false;
+            this.bunifuDatePicker7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker7.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker7.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker7.Icon")));
+            this.bunifuDatePicker7.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker7.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker7.LeftTextMargin = 5;
+            this.bunifuDatePicker7.Location = new System.Drawing.Point(3, 19);
+            this.bunifuDatePicker7.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker7.Name = "bunifuDatePicker7";
+            this.bunifuDatePicker7.Size = new System.Drawing.Size(332, 32);
+            this.bunifuDatePicker7.TabIndex = 0;
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.ColumnCount = 3;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel15.Controls.Add(this.materialButton10, 2, 0);
+            this.tableLayoutPanel15.Controls.Add(this.materialButton9, 1, 0);
+            this.tableLayoutPanel15.Controls.Add(this.materialButton7, 0, 0);
+            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 1;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(780, 51);
+            this.tableLayoutPanel15.TabIndex = 1;
+            // 
+            // materialButton10
+            // 
+            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton10.Depth = 0;
+            this.materialButton10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton10.HighEmphasis = true;
+            this.materialButton10.Icon = null;
+            this.materialButton10.Location = new System.Drawing.Point(524, 6);
+            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton10.Name = "materialButton10";
+            this.materialButton10.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton10.Size = new System.Drawing.Size(252, 39);
+            this.materialButton10.TabIndex = 2;
+            this.materialButton10.Text = "Finacial Reports";
+            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton10.UseAccentColor = false;
+            this.materialButton10.UseVisualStyleBackColor = true;
+            this.materialButton10.Click += new System.EventHandler(this.materialButton10_Click);
+            // 
+            // materialButton9
+            // 
+            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton9.Depth = 0;
+            this.materialButton9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton9.HighEmphasis = true;
+            this.materialButton9.Icon = null;
+            this.materialButton9.Location = new System.Drawing.Point(264, 6);
+            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton9.Name = "materialButton9";
+            this.materialButton9.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton9.Size = new System.Drawing.Size(252, 39);
+            this.materialButton9.TabIndex = 1;
+            this.materialButton9.Text = "Computer Diagonistic Reports";
+            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton9.UseAccentColor = false;
+            this.materialButton9.UseVisualStyleBackColor = true;
+            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click);
+            // 
+            // materialButton7
+            // 
+            this.materialButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton7.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton7.Depth = 0;
+            this.materialButton7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.materialButton7.HighEmphasis = true;
+            this.materialButton7.Icon = null;
+            this.materialButton7.Location = new System.Drawing.Point(4, 6);
+            this.materialButton7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton7.Name = "materialButton7";
+            this.materialButton7.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton7.Size = new System.Drawing.Size(252, 39);
+            this.materialButton7.TabIndex = 0;
+            this.materialButton7.Text = "Customer\'s/ Clients Reports";
+            this.materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton7.UseAccentColor = false;
+            this.materialButton7.UseVisualStyleBackColor = true;
+            this.materialButton7.Click += new System.EventHandler(this.materialButton7_Click);
+            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.White;
@@ -1029,23 +1633,23 @@
             // 
             this.bunifuDataGridView1.AllowCustomTheming = false;
             this.bunifuDataGridView1.AllowUserToAddRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(217)))), ((int)(((byte)(198)))));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(217)))), ((int)(((byte)(198)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.bunifuDataGridView1.AutoGenerateColumns = false;
             this.bunifuDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuDataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.bunifuDataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.bunifuDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Chocolate;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(84)))), ((int)(((byte)(24)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Chocolate;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(84)))), ((int)(((byte)(24)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.bunifuDataGridView1.ColumnHeadersHeight = 40;
             this.bunifuDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
@@ -1071,15 +1675,15 @@
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(165)))), ((int)(((byte)(120)))));
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.bunifuDataGridView1.DataSource = this.usersBindingSource;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(225)))), ((int)(((byte)(210)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(165)))), ((int)(((byte)(120)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuDataGridView1.DefaultCellStyle = dataGridViewCellStyle9;
+            this.bunifuDataGridView1.DataSource = this.usersBindingSource1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(225)))), ((int)(((byte)(210)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(165)))), ((int)(((byte)(120)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.bunifuDataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuDataGridView1.EnableHeadersVisualStyles = false;
             this.bunifuDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(210)))), ((int)(((byte)(187)))));
@@ -1094,6 +1698,16 @@
             this.bunifuDataGridView1.Size = new System.Drawing.Size(730, 267);
             this.bunifuDataGridView1.TabIndex = 0;
             this.bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Chocolate;
+            // 
+            // usersBindingSource
+            // 
+            this.usersBindingSource.DataMember = "users";
+            this.usersBindingSource.DataSource = this.itlogistsDbDataSet1;
+            // 
+            // itlogistsDbDataSet1
+            // 
+            this.itlogistsDbDataSet1.DataSetName = "ItlogistsDbDataSet1";
+            this.itlogistsDbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tableLayoutPanel11
             // 
@@ -1449,37 +2063,41 @@
             this.imageList1.Images.SetKeyName(1, "icons8_computer_support.ico");
             this.imageList1.Images.SetKeyName(2, "icons8_settings.ico");
             // 
-            // itlogistsDbDataSet1
-            // 
-            this.itlogistsDbDataSet1.DataSetName = "ItlogistsDbDataSet1";
-            this.itlogistsDbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // usersBindingSource
-            // 
-            this.usersBindingSource.DataMember = "users";
-            this.usersBindingSource.DataSource = this.itlogistsDbDataSet1;
-            // 
             // usersTableAdapter
             // 
             this.usersTableAdapter.ClearBeforeFill = true;
             // 
+            // libertyshopDataSet
+            // 
+            this.libertyshopDataSet.DataSetName = "libertyshopDataSet";
+            this.libertyshopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // usersBindingSource1
+            // 
+            this.usersBindingSource1.DataMember = "users";
+            this.usersBindingSource1.DataSource = this.libertyshopDataSet;
+            // 
+            // usersTableAdapter1
+            // 
+            this.usersTableAdapter1.ClearBeforeFill = true;
+            // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "User ID";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             this.idDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nameDataGridViewTextBoxColumn
             // 
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Full Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             // 
             // usernameDataGridViewTextBoxColumn
             // 
             this.usernameDataGridViewTextBoxColumn.DataPropertyName = "username";
-            this.usernameDataGridViewTextBoxColumn.HeaderText = "User Name";
+            this.usernameDataGridViewTextBoxColumn.HeaderText = "username";
             this.usernameDataGridViewTextBoxColumn.Name = "usernameDataGridViewTextBoxColumn";
             // 
             // categoryDataGridViewTextBoxColumn
@@ -1491,601 +2109,8 @@
             // dateDataGridViewTextBoxColumn
             // 
             this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "Date of Entry";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "date";
             this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            // 
-            // bunifuPages1
-            // 
-            this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.bunifuPages1.AllowTransitions = false;
-            this.bunifuPages1.Controls.Add(this.customer);
-            this.bunifuPages1.Controls.Add(this.comp);
-            this.bunifuPages1.Controls.Add(this.money);
-            this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPages1.Location = new System.Drawing.Point(3, 54);
-            this.bunifuPages1.Multiline = true;
-            this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.customer;
-            this.bunifuPages1.PageIndex = 0;
-            this.bunifuPages1.PageName = "customer";
-            this.bunifuPages1.PageTitle = "customer";
-            this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(780, 446);
-            this.bunifuPages1.TabIndex = 0;
-            animation1.AnimateOnlyDifferences = false;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.bunifuPages1.Transition = animation1;
-            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
-            // 
-            // customer
-            // 
-            this.customer.BackColor = System.Drawing.Color.White;
-            this.customer.Controls.Add(this.tableLayoutPanel16);
-            this.customer.Controls.Add(this.tableLayoutPanel17);
-            this.customer.Location = new System.Drawing.Point(4, 4);
-            this.customer.Name = "customer";
-            this.customer.Padding = new System.Windows.Forms.Padding(3);
-            this.customer.Size = new System.Drawing.Size(772, 420);
-            this.customer.TabIndex = 0;
-            this.customer.Text = "customer";
-            // 
-            // comp
-            // 
-            this.comp.BackColor = System.Drawing.Color.White;
-            this.comp.Controls.Add(this.tableLayoutPanel18);
-            this.comp.Controls.Add(this.tableLayoutPanel19);
-            this.comp.Location = new System.Drawing.Point(4, 4);
-            this.comp.Name = "comp";
-            this.comp.Padding = new System.Windows.Forms.Padding(3);
-            this.comp.Size = new System.Drawing.Size(772, 420);
-            this.comp.TabIndex = 1;
-            this.comp.Text = "comp";
-            // 
-            // money
-            // 
-            this.money.BackColor = System.Drawing.Color.White;
-            this.money.Controls.Add(this.tableLayoutPanel20);
-            this.money.Controls.Add(this.tableLayoutPanel21);
-            this.money.Location = new System.Drawing.Point(4, 4);
-            this.money.Name = "money";
-            this.money.Padding = new System.Windows.Forms.Padding(3);
-            this.money.Size = new System.Drawing.Size(772, 420);
-            this.money.TabIndex = 2;
-            this.money.Text = "money";
-            // 
-            // tableLayoutPanel15
-            // 
-            this.tableLayoutPanel15.ColumnCount = 3;
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel15.Controls.Add(this.materialButton10, 2, 0);
-            this.tableLayoutPanel15.Controls.Add(this.materialButton9, 1, 0);
-            this.tableLayoutPanel15.Controls.Add(this.materialButton7, 0, 0);
-            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
-            this.tableLayoutPanel15.RowCount = 1;
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(780, 51);
-            this.tableLayoutPanel15.TabIndex = 1;
-            // 
-            // materialButton7
-            // 
-            this.materialButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton7.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton7.Depth = 0;
-            this.materialButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton7.HighEmphasis = true;
-            this.materialButton7.Icon = null;
-            this.materialButton7.Location = new System.Drawing.Point(4, 6);
-            this.materialButton7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton7.Name = "materialButton7";
-            this.materialButton7.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton7.Size = new System.Drawing.Size(251, 39);
-            this.materialButton7.TabIndex = 0;
-            this.materialButton7.Text = "Customer\'s/ Clients Reports";
-            this.materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton7.UseAccentColor = false;
-            this.materialButton7.UseVisualStyleBackColor = true;
-            this.materialButton7.Click += new System.EventHandler(this.materialButton7_Click);
-            // 
-            // materialButton9
-            // 
-            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton9.Depth = 0;
-            this.materialButton9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton9.HighEmphasis = true;
-            this.materialButton9.Icon = null;
-            this.materialButton9.Location = new System.Drawing.Point(263, 6);
-            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton9.Name = "materialButton9";
-            this.materialButton9.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton9.Size = new System.Drawing.Size(251, 39);
-            this.materialButton9.TabIndex = 1;
-            this.materialButton9.Text = "Computer Diagonistic Reports";
-            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton9.UseAccentColor = false;
-            this.materialButton9.UseVisualStyleBackColor = true;
-            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click);
-            // 
-            // materialButton10
-            // 
-            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton10.Depth = 0;
-            this.materialButton10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton10.HighEmphasis = true;
-            this.materialButton10.Icon = null;
-            this.materialButton10.Location = new System.Drawing.Point(522, 6);
-            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton10.Name = "materialButton10";
-            this.materialButton10.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton10.Size = new System.Drawing.Size(254, 39);
-            this.materialButton10.TabIndex = 2;
-            this.materialButton10.Text = "Finacial Reports";
-            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton10.UseAccentColor = false;
-            this.materialButton10.UseVisualStyleBackColor = true;
-            this.materialButton10.Click += new System.EventHandler(this.materialButton10_Click);
-            // 
-            // tableLayoutPanel16
-            // 
-            this.tableLayoutPanel16.ColumnCount = 3;
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel16.Controls.Add(this.reportViewer1, 1, 0);
-            this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 59);
-            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-            this.tableLayoutPanel16.RowCount = 1;
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Size = new System.Drawing.Size(766, 358);
-            this.tableLayoutPanel16.TabIndex = 0;
-            // 
-            // tableLayoutPanel17
-            // 
-            this.tableLayoutPanel17.ColumnCount = 3;
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel17.Controls.Add(this.materialButton11, 2, 0);
-            this.tableLayoutPanel17.Controls.Add(this.bunifuGroupBox2, 1, 0);
-            this.tableLayoutPanel17.Controls.Add(this.bunifuGroupBox1, 0, 0);
-            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
-            this.tableLayoutPanel17.RowCount = 1;
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(766, 56);
-            this.tableLayoutPanel17.TabIndex = 1;
-            // 
-            // bunifuGroupBox1
-            // 
-            this.bunifuGroupBox1.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuGroupBox1.BorderRadius = 1;
-            this.bunifuGroupBox1.BorderThickness = 1;
-            this.bunifuGroupBox1.Controls.Add(this.bunifuDatePicker2);
-            this.bunifuGroupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuGroupBox1.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuGroupBox1.LabelIndent = 10;
-            this.bunifuGroupBox1.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
-            this.bunifuGroupBox1.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGroupBox1.Name = "bunifuGroupBox1";
-            this.bunifuGroupBox1.Size = new System.Drawing.Size(338, 50);
-            this.bunifuGroupBox1.TabIndex = 0;
-            this.bunifuGroupBox1.TabStop = false;
-            this.bunifuGroupBox1.Text = "From";
-            // 
-            // bunifuGroupBox2
-            // 
-            this.bunifuGroupBox2.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuGroupBox2.BorderRadius = 1;
-            this.bunifuGroupBox2.BorderThickness = 1;
-            this.bunifuGroupBox2.Controls.Add(this.bunifuDatePicker3);
-            this.bunifuGroupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuGroupBox2.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuGroupBox2.LabelIndent = 10;
-            this.bunifuGroupBox2.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
-            this.bunifuGroupBox2.Location = new System.Drawing.Point(347, 3);
-            this.bunifuGroupBox2.Name = "bunifuGroupBox2";
-            this.bunifuGroupBox2.Size = new System.Drawing.Size(338, 50);
-            this.bunifuGroupBox2.TabIndex = 1;
-            this.bunifuGroupBox2.TabStop = false;
-            this.bunifuGroupBox2.Text = "To";
-            // 
-            // materialButton11
-            // 
-            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton11.Depth = 0;
-            this.materialButton11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton11.HighEmphasis = true;
-            this.materialButton11.Icon = null;
-            this.materialButton11.Location = new System.Drawing.Point(692, 6);
-            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton11.Name = "materialButton11";
-            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton11.Size = new System.Drawing.Size(70, 44);
-            this.materialButton11.TabIndex = 3;
-            this.materialButton11.Text = "Filter";
-            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton11.UseAccentColor = false;
-            this.materialButton11.UseVisualStyleBackColor = true;
-            // 
-            // bunifuDatePicker2
-            // 
-            this.bunifuDatePicker2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker2.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker2.BorderRadius = 1;
-            this.bunifuDatePicker2.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker2.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker2.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker2.DisplayWeekNumbers = false;
-            this.bunifuDatePicker2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuDatePicker2.DPHeight = 0;
-            this.bunifuDatePicker2.FillDatePicker = false;
-            this.bunifuDatePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker2.Icon")));
-            this.bunifuDatePicker2.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker2.LeftTextMargin = 5;
-            this.bunifuDatePicker2.Location = new System.Drawing.Point(3, 19);
-            this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(0, 32);
-            this.bunifuDatePicker2.Name = "bunifuDatePicker2";
-            this.bunifuDatePicker2.Size = new System.Drawing.Size(332, 32);
-            this.bunifuDatePicker2.TabIndex = 0;
-            // 
-            // bunifuDatePicker3
-            // 
-            this.bunifuDatePicker3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker3.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker3.BorderRadius = 1;
-            this.bunifuDatePicker3.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker3.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker3.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker3.DisplayWeekNumbers = false;
-            this.bunifuDatePicker3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuDatePicker3.DPHeight = 0;
-            this.bunifuDatePicker3.FillDatePicker = false;
-            this.bunifuDatePicker3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker3.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker3.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker3.Icon")));
-            this.bunifuDatePicker3.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker3.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker3.LeftTextMargin = 5;
-            this.bunifuDatePicker3.Location = new System.Drawing.Point(3, 19);
-            this.bunifuDatePicker3.MinimumSize = new System.Drawing.Size(0, 32);
-            this.bunifuDatePicker3.Name = "bunifuDatePicker3";
-            this.bunifuDatePicker3.Size = new System.Drawing.Size(332, 32);
-            this.bunifuDatePicker3.TabIndex = 1;
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.Location = new System.Drawing.Point(194, 3);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(377, 352);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // tableLayoutPanel18
-            // 
-            this.tableLayoutPanel18.ColumnCount = 3;
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel18.Controls.Add(this.reportViewer2, 1, 0);
-            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 59);
-            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
-            this.tableLayoutPanel18.RowCount = 1;
-            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel18.Size = new System.Drawing.Size(766, 358);
-            this.tableLayoutPanel18.TabIndex = 2;
-            // 
-            // reportViewer2
-            // 
-            this.reportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer2.Location = new System.Drawing.Point(194, 3);
-            this.reportViewer2.Name = "reportViewer2";
-            this.reportViewer2.ServerReport.BearerToken = null;
-            this.reportViewer2.Size = new System.Drawing.Size(377, 352);
-            this.reportViewer2.TabIndex = 0;
-            // 
-            // tableLayoutPanel19
-            // 
-            this.tableLayoutPanel19.ColumnCount = 3;
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel19.Controls.Add(this.materialButton12, 2, 0);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuGroupBox3, 1, 0);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuGroupBox4, 0, 0);
-            this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
-            this.tableLayoutPanel19.RowCount = 1;
-            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel19.Size = new System.Drawing.Size(766, 56);
-            this.tableLayoutPanel19.TabIndex = 3;
-            // 
-            // materialButton12
-            // 
-            this.materialButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton12.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton12.Depth = 0;
-            this.materialButton12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton12.HighEmphasis = true;
-            this.materialButton12.Icon = null;
-            this.materialButton12.Location = new System.Drawing.Point(692, 6);
-            this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton12.Name = "materialButton12";
-            this.materialButton12.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton12.Size = new System.Drawing.Size(70, 44);
-            this.materialButton12.TabIndex = 3;
-            this.materialButton12.Text = "Filter";
-            this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton12.UseAccentColor = false;
-            this.materialButton12.UseVisualStyleBackColor = true;
-            // 
-            // bunifuGroupBox3
-            // 
-            this.bunifuGroupBox3.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuGroupBox3.BorderRadius = 1;
-            this.bunifuGroupBox3.BorderThickness = 1;
-            this.bunifuGroupBox3.Controls.Add(this.bunifuDatePicker4);
-            this.bunifuGroupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGroupBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuGroupBox3.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuGroupBox3.LabelIndent = 10;
-            this.bunifuGroupBox3.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
-            this.bunifuGroupBox3.Location = new System.Drawing.Point(347, 3);
-            this.bunifuGroupBox3.Name = "bunifuGroupBox3";
-            this.bunifuGroupBox3.Size = new System.Drawing.Size(338, 50);
-            this.bunifuGroupBox3.TabIndex = 1;
-            this.bunifuGroupBox3.TabStop = false;
-            this.bunifuGroupBox3.Text = "To";
-            // 
-            // bunifuDatePicker4
-            // 
-            this.bunifuDatePicker4.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker4.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker4.BorderRadius = 1;
-            this.bunifuDatePicker4.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker4.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker4.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker4.DisplayWeekNumbers = false;
-            this.bunifuDatePicker4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuDatePicker4.DPHeight = 0;
-            this.bunifuDatePicker4.FillDatePicker = false;
-            this.bunifuDatePicker4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker4.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker4.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker4.Icon")));
-            this.bunifuDatePicker4.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker4.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker4.LeftTextMargin = 5;
-            this.bunifuDatePicker4.Location = new System.Drawing.Point(3, 19);
-            this.bunifuDatePicker4.MinimumSize = new System.Drawing.Size(0, 32);
-            this.bunifuDatePicker4.Name = "bunifuDatePicker4";
-            this.bunifuDatePicker4.Size = new System.Drawing.Size(332, 32);
-            this.bunifuDatePicker4.TabIndex = 1;
-            // 
-            // bunifuGroupBox4
-            // 
-            this.bunifuGroupBox4.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuGroupBox4.BorderRadius = 1;
-            this.bunifuGroupBox4.BorderThickness = 1;
-            this.bunifuGroupBox4.Controls.Add(this.bunifuDatePicker5);
-            this.bunifuGroupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGroupBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuGroupBox4.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuGroupBox4.LabelIndent = 10;
-            this.bunifuGroupBox4.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
-            this.bunifuGroupBox4.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGroupBox4.Name = "bunifuGroupBox4";
-            this.bunifuGroupBox4.Size = new System.Drawing.Size(338, 50);
-            this.bunifuGroupBox4.TabIndex = 0;
-            this.bunifuGroupBox4.TabStop = false;
-            this.bunifuGroupBox4.Text = "From";
-            // 
-            // bunifuDatePicker5
-            // 
-            this.bunifuDatePicker5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker5.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker5.BorderRadius = 1;
-            this.bunifuDatePicker5.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker5.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker5.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker5.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker5.DisplayWeekNumbers = false;
-            this.bunifuDatePicker5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuDatePicker5.DPHeight = 0;
-            this.bunifuDatePicker5.FillDatePicker = false;
-            this.bunifuDatePicker5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker5.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker5.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker5.Icon")));
-            this.bunifuDatePicker5.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker5.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker5.LeftTextMargin = 5;
-            this.bunifuDatePicker5.Location = new System.Drawing.Point(3, 19);
-            this.bunifuDatePicker5.MinimumSize = new System.Drawing.Size(0, 32);
-            this.bunifuDatePicker5.Name = "bunifuDatePicker5";
-            this.bunifuDatePicker5.Size = new System.Drawing.Size(332, 32);
-            this.bunifuDatePicker5.TabIndex = 0;
-            // 
-            // tableLayoutPanel20
-            // 
-            this.tableLayoutPanel20.ColumnCount = 3;
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel20.Controls.Add(this.reportViewer3, 1, 0);
-            this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 59);
-            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
-            this.tableLayoutPanel20.RowCount = 1;
-            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel20.Size = new System.Drawing.Size(766, 358);
-            this.tableLayoutPanel20.TabIndex = 2;
-            // 
-            // reportViewer3
-            // 
-            this.reportViewer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer3.Location = new System.Drawing.Point(194, 3);
-            this.reportViewer3.Name = "reportViewer3";
-            this.reportViewer3.ServerReport.BearerToken = null;
-            this.reportViewer3.Size = new System.Drawing.Size(377, 352);
-            this.reportViewer3.TabIndex = 0;
-            // 
-            // tableLayoutPanel21
-            // 
-            this.tableLayoutPanel21.ColumnCount = 3;
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel21.Controls.Add(this.materialButton13, 2, 0);
-            this.tableLayoutPanel21.Controls.Add(this.bunifuGroupBox5, 1, 0);
-            this.tableLayoutPanel21.Controls.Add(this.bunifuGroupBox6, 0, 0);
-            this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
-            this.tableLayoutPanel21.RowCount = 1;
-            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel21.Size = new System.Drawing.Size(766, 56);
-            this.tableLayoutPanel21.TabIndex = 3;
-            // 
-            // materialButton13
-            // 
-            this.materialButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton13.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton13.Depth = 0;
-            this.materialButton13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialButton13.HighEmphasis = true;
-            this.materialButton13.Icon = null;
-            this.materialButton13.Location = new System.Drawing.Point(692, 6);
-            this.materialButton13.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton13.Name = "materialButton13";
-            this.materialButton13.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton13.Size = new System.Drawing.Size(70, 44);
-            this.materialButton13.TabIndex = 3;
-            this.materialButton13.Text = "Filter";
-            this.materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton13.UseAccentColor = false;
-            this.materialButton13.UseVisualStyleBackColor = true;
-            // 
-            // bunifuGroupBox5
-            // 
-            this.bunifuGroupBox5.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuGroupBox5.BorderRadius = 1;
-            this.bunifuGroupBox5.BorderThickness = 1;
-            this.bunifuGroupBox5.Controls.Add(this.bunifuDatePicker6);
-            this.bunifuGroupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGroupBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuGroupBox5.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuGroupBox5.LabelIndent = 10;
-            this.bunifuGroupBox5.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
-            this.bunifuGroupBox5.Location = new System.Drawing.Point(347, 3);
-            this.bunifuGroupBox5.Name = "bunifuGroupBox5";
-            this.bunifuGroupBox5.Size = new System.Drawing.Size(338, 50);
-            this.bunifuGroupBox5.TabIndex = 1;
-            this.bunifuGroupBox5.TabStop = false;
-            this.bunifuGroupBox5.Text = "To";
-            // 
-            // bunifuDatePicker6
-            // 
-            this.bunifuDatePicker6.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker6.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker6.BorderRadius = 1;
-            this.bunifuDatePicker6.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker6.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker6.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker6.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker6.DisplayWeekNumbers = false;
-            this.bunifuDatePicker6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuDatePicker6.DPHeight = 0;
-            this.bunifuDatePicker6.FillDatePicker = false;
-            this.bunifuDatePicker6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker6.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker6.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker6.Icon")));
-            this.bunifuDatePicker6.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker6.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker6.LeftTextMargin = 5;
-            this.bunifuDatePicker6.Location = new System.Drawing.Point(3, 19);
-            this.bunifuDatePicker6.MinimumSize = new System.Drawing.Size(0, 32);
-            this.bunifuDatePicker6.Name = "bunifuDatePicker6";
-            this.bunifuDatePicker6.Size = new System.Drawing.Size(332, 32);
-            this.bunifuDatePicker6.TabIndex = 1;
-            // 
-            // bunifuGroupBox6
-            // 
-            this.bunifuGroupBox6.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuGroupBox6.BorderRadius = 1;
-            this.bunifuGroupBox6.BorderThickness = 1;
-            this.bunifuGroupBox6.Controls.Add(this.bunifuDatePicker7);
-            this.bunifuGroupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGroupBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuGroupBox6.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuGroupBox6.LabelIndent = 10;
-            this.bunifuGroupBox6.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
-            this.bunifuGroupBox6.Location = new System.Drawing.Point(3, 3);
-            this.bunifuGroupBox6.Name = "bunifuGroupBox6";
-            this.bunifuGroupBox6.Size = new System.Drawing.Size(338, 50);
-            this.bunifuGroupBox6.TabIndex = 0;
-            this.bunifuGroupBox6.TabStop = false;
-            this.bunifuGroupBox6.Text = "From";
-            // 
-            // bunifuDatePicker7
-            // 
-            this.bunifuDatePicker7.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker7.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker7.BorderRadius = 1;
-            this.bunifuDatePicker7.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker7.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker7.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker7.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker7.DisplayWeekNumbers = false;
-            this.bunifuDatePicker7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuDatePicker7.DPHeight = 0;
-            this.bunifuDatePicker7.FillDatePicker = false;
-            this.bunifuDatePicker7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker7.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker7.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker7.Icon")));
-            this.bunifuDatePicker7.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker7.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker7.LeftTextMargin = 5;
-            this.bunifuDatePicker7.Location = new System.Drawing.Point(3, 19);
-            this.bunifuDatePicker7.MinimumSize = new System.Drawing.Size(0, 32);
-            this.bunifuDatePicker7.Name = "bunifuDatePicker7";
-            this.bunifuDatePicker7.Size = new System.Drawing.Size(332, 32);
-            this.bunifuDatePicker7.TabIndex = 0;
             // 
             // Form1
             // 
@@ -2139,10 +2164,33 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.bunifuPages1.ResumeLayout(false);
+            this.customer.ResumeLayout(false);
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel17.PerformLayout();
+            this.bunifuGroupBox2.ResumeLayout(false);
+            this.bunifuGroupBox1.ResumeLayout(false);
+            this.comp.ResumeLayout(false);
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel19.ResumeLayout(false);
+            this.tableLayoutPanel19.PerformLayout();
+            this.bunifuGroupBox3.ResumeLayout(false);
+            this.bunifuGroupBox4.ResumeLayout(false);
+            this.money.ResumeLayout(false);
+            this.tableLayoutPanel20.ResumeLayout(false);
+            this.tableLayoutPanel21.ResumeLayout(false);
+            this.tableLayoutPanel21.PerformLayout();
+            this.bunifuGroupBox5.ResumeLayout(false);
+            this.bunifuGroupBox6.ResumeLayout(false);
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel15.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tableLayoutPanel14.ResumeLayout(false);
             this.materialCard13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.itlogistsDbDataSet1)).EndInit();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.tableLayoutPanel12.ResumeLayout(false);
@@ -2154,29 +2202,8 @@
             this.tableLayoutPanel9.ResumeLayout(false);
             this.materialCard10.ResumeLayout(false);
             this.materialCard10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.itlogistsDbDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).EndInit();
-            this.bunifuPages1.ResumeLayout(false);
-            this.customer.ResumeLayout(false);
-            this.comp.ResumeLayout(false);
-            this.money.ResumeLayout(false);
-            this.tableLayoutPanel15.ResumeLayout(false);
-            this.tableLayoutPanel15.PerformLayout();
-            this.tableLayoutPanel16.ResumeLayout(false);
-            this.tableLayoutPanel17.ResumeLayout(false);
-            this.tableLayoutPanel17.PerformLayout();
-            this.bunifuGroupBox1.ResumeLayout(false);
-            this.bunifuGroupBox2.ResumeLayout(false);
-            this.tableLayoutPanel18.ResumeLayout(false);
-            this.tableLayoutPanel19.ResumeLayout(false);
-            this.tableLayoutPanel19.PerformLayout();
-            this.bunifuGroupBox3.ResumeLayout(false);
-            this.bunifuGroupBox4.ResumeLayout(false);
-            this.tableLayoutPanel20.ResumeLayout(false);
-            this.tableLayoutPanel21.ResumeLayout(false);
-            this.tableLayoutPanel21.PerformLayout();
-            this.bunifuGroupBox5.ResumeLayout(false);
-            this.bunifuGroupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.libertyshopDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usersBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2262,11 +2289,6 @@
         private ItlogistsDbDataSet1 itlogistsDbDataSet1;
         private System.Windows.Forms.BindingSource usersBindingSource;
         private ItlogistsDbDataSet1TableAdapters.usersTableAdapter usersTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usernameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn categoryDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
         private Bunifu.UI.WinForms.BunifuPages bunifuPages1;
         private System.Windows.Forms.TabPage customer;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
@@ -2299,6 +2321,14 @@
         private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker6;
         private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox6;
         private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker7;
+        private libertyshopDataSet libertyshopDataSet;
+        private System.Windows.Forms.BindingSource usersBindingSource1;
+        private libertyshopDataSetTableAdapters.usersTableAdapter usersTableAdapter1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn usernameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn categoryDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
     }
 }
 

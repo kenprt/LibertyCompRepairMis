@@ -10,12 +10,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using Microsoft.Reporting.WinForms;
 
 namespace LibertyCompRepairMis
 {
     public partial class Form1 : MaterialForm
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-OQQ6I8M;Initial Catalog=ItlogistsDb;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-KL8RVKT;Initial Catalog=libertyshop;Integrated Security=True");
         string a = "Admin";
         string s = "User";
         public Form1()
@@ -74,10 +75,24 @@ namespace LibertyCompRepairMis
                 lblfixed.Text = dt.Rows[0]["total"].ToString();
             }
         }
+        public void loadReport()
+        {
+            SqlCommand cmd = new SqlCommand("Select * from new", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            reportViewer1.LocalReport.DataSources.Clear();
+            reportViewer1.LocalReport.ReportPath = "C:\\Users\\WAWERU\\source\\repos\\LibertyCompRepairMis\\LibertyCompRepairMis\\Customer.rdlc";
+            ReportDataSource source = new ReportDataSource("DataSet1", dt);
+            reportViewer1.LocalReport.DataSources.Add(source);
+            reportViewer1.RefreshReport();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'libertyshopDataSet.users' table. You can move, or remove it, as needed.
+            this.usersTableAdapter1.Fill(this.libertyshopDataSet.users);
             // TODO: This line of code loads data into the 'itlogistsDbDataSet1.users' table. You can move, or remove it, as needed.
-            this.usersTableAdapter.Fill(this.itlogistsDbDataSet1.users);
+            // this.usersTableAdapter.Fill(this.itlogistsDbDataSet1.users);
             loadChart();
             countRegister();
             countPending();
@@ -86,6 +101,7 @@ namespace LibertyCompRepairMis
             bindUsers();
             users();
             admin();
+            loadReport();
             this.reportViewer1.RefreshReport();
         }
 

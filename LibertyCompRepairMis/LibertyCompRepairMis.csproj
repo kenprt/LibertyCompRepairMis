@@ -254,6 +254,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ItlogistsDbDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -263,6 +269,33 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ItlogistsDbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ItlogistsDbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItlogistsDbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="libertyshopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>libertyshopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="libertyshopDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>libertyshopDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login1.Designer.cs">
+      <DependentUpon>Login1.cs</DependentUpon>
     </Compile>
     <Compile Include="newRecord.cs">
       <SubType>Form</SubType>
@@ -276,8 +309,15 @@
     <EmbeddedResource Include="checkOut.resx">
       <DependentUpon>checkOut.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customer.rdlc" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="newRecord.resx">
       <DependentUpon>newRecord.cs</DependentUpon>
@@ -313,6 +353,39 @@
     </None>
     <None Include="ItlogistsDbDataSet1.xss">
       <DependentUpon>ItlogistsDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ItlogistsDbDataSet2.xsc">
+      <DependentUpon>ItlogistsDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ItlogistsDbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItlogistsDbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItlogistsDbDataSet2.xss">
+      <DependentUpon>ItlogistsDbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="libertyshopDataSet.xsc">
+      <DependentUpon>libertyshopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="libertyshopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>libertyshopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="libertyshopDataSet.xss">
+      <DependentUpon>libertyshopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="libertyshopDataSet1.xsc">
+      <DependentUpon>libertyshopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="libertyshopDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>libertyshopDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="libertyshopDataSet1.xss">
+      <DependentUpon>libertyshopDataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
